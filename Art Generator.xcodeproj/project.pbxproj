@@ -11,6 +11,7 @@
 		5E92758E295850D600D0939B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E92758D295850D600D0939B /* ContentView.swift */; };
 		5E927590295850D700D0939B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E92758F295850D700D0939B /* Assets.xcassets */; };
 		5E927594295850D700D0939B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E927593295850D700D0939B /* Preview Assets.xcassets */; };
+		5E92759E2958858300D0939B /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E92759D2958858300D0939B /* NetworkRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5E927593295850D700D0939B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E92759B295855B500D0939B /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		5E92759C2958582D00D0939B /* Art-Generator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Art-Generator-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5E92759D2958858300D0939B /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				5E92759C2958582D00D0939B /* Art-Generator-Info.plist */,
 				5E92758B295850D600D0939B /* Art_GeneratorApp.swift */,
 				5E92758D295850D600D0939B /* ContentView.swift */,
+				5E92759D2958858300D0939B /* NetworkRequest.swift */,
 				5E92759B295855B500D0939B /* Config.xcconfig */,
 				5E92758F295850D700D0939B /* Assets.xcassets */,
 				5E927591295850D700D0939B /* Art_Generator.entitlements */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E92758E295850D600D0939B /* ContentView.swift in Sources */,
+				5E92759E2958858300D0939B /* NetworkRequest.swift in Sources */,
 				5E92758C295850D600D0939B /* Art_GeneratorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +275,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Art Generator/Preview Content\"";
+				DEVELOPMENT_TEAM = R28KNM82KD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Art-Generator-Info.plist";
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Art Generator/Preview Content\"";
+				DEVELOPMENT_TEAM = R28KNM82KD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Art-Generator-Info.plist";
